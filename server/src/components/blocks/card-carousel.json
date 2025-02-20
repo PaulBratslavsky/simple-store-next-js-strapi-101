@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_card_carousels",
+  "info": {
+    "displayName": "Card Carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
+    }
+  }
+}

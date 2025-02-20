@@ -1,0 +1,9 @@
+import { getProduct } from "@/lib/data/loaders"
+import type { ProductData } from "@/types"
+import ProductView from "@/components/custom/product-view"
+
+export default async function ProductRoute({ params }: { params: { slug: string } }) {
+  const product = (await getProduct(params.slug)) as ProductData
+  return <ProductView product={product} />
+}
+

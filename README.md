@@ -27,3 +27,4 @@ yarn dev
 
 
 # simple-store-next-js-strapi-101
+# simple-store-next-js-strapi-101
